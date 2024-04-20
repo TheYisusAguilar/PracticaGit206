@@ -5,3 +5,49 @@
 
 }
 
+.header {
+    margin:  1rem;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 10px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        li {
+            border-bottom: 2px solid #a09f9f;
+            a {
+                font-weight: bold;
+                color: black;
+                transition: all 0.3s ease;
+                cursor: pointer;
+                text-decoration: none;
+
+                &:visited {
+                    color: blue;
+                }
+            }
+            
+            &:hover {
+                border-bottom: 5px solid #121212;
+                border-color: aqua;
+            }
+        }
+    }
+}
+
+.main-container, .footer-container {
+    border: 2px solid red;
+    margin: 2rem 0;
+    padding: 2rem 0;
+
+    font-weight: 700;
+    margin: 2rem;
+    
+
+}
